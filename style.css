@@ -9,7 +9,7 @@ img{
 }
 
 body{
-    background-color: #c6d0cb;
+    background: linear-gradient(135deg, #c6d0cb, #b5bdb9, #9ba8a2);
 }
 
 .EnTete h1{
@@ -45,7 +45,7 @@ body{
     margin: 0 auto;
     }
 
-    h2 {
+   .Corp h2 {
     text-transform: uppercase;
     text-align: center;
     border-bottom: 2px solid #e74c3c; 
