@@ -1,3 +1,4 @@
+
 .EnTete{
     text-align: center;
 }
@@ -6,16 +7,38 @@ img{
      box-shadow:10px 10px 10px 0 rgba(0,0,0,0.5);
      margin-bottom: 25px;
      margin-top: 25px;
+     
+}
+#Discographie img{
+    padding: 80px;
+}
+#corp ol{
+   color:#e74c3c
 }
 
-body{
-    background: linear-gradient(135deg, #c6d0cb, #b5bdb9, #9ba8a2);
+header{
+   background: linear-gradient(135deg, #191919, #b5bdb9, #191919);
 }
+
+#Discographie{
+    background: linear-gradient(135deg, #191919, #b5bdb9, #191919);
+}
+
+#Discographie h2{
+    font-family: 'Courier New', Courier, monospace;
+    border-top:3px solid #141618 ;
+    border-bottom:3px solid #141618 ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin:0px;
+}
+
 
 .EnTete h1{
     font-family: 'Courier New', Courier, monospace;
-    border-top:1px solid #141618 ;
-    border-bottom:1px solid #141618 ;
+    border-top:3px solid #141618 ;
+    border-bottom:3px solid #141618 ;
     padding-top: 15px;
     padding-bottom: 15px;
     
@@ -65,3 +88,4 @@ li:hover {
     color: #e74c3c;
     cursor: default;
 }
+
