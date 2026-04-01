@@ -3,5 +3,65 @@
 }
 
 img{
-    border: solid 10px solid;
+     box-shadow:10px 10px 10px 0 rgba(0,0,0,0.5);
+     margin-bottom: 25px;
+     margin-top: 25px;
+}
+
+body{
+    background-color: #c6d0cb;
+}
+
+.EnTete h1{
+    font-family: 'Courier New', Courier, monospace;
+    border-top:1px solid #141618 ;
+    border-bottom:1px solid #141618 ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+.EnTete h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Corp {
+    display: flex;
+    background-color: #1a1a1a; 
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    }
+
+    ol {
+    background: #252525;
+    padding: 90px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    max-width: 500px;
+    width: 100%;
+    column-count: 2;
+    column-gap: 40px;
+    margin: 0 auto;
+    }
+
+    h2 {
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 2px solid #e74c3c; 
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    }
+
+    li {
+    margin-bottom: 8px;
+    padding-left: 10px;
+    font-size: 1.1rem;
+    color: #ccc;
+}
+
+li:hover {
+    color: #e74c3c;
+    cursor: default;
 }
